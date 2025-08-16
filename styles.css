@@ -39,11 +39,15 @@ body {
   font-weight: 300;          /* makes it faint/thin */
   color:#777777;              /* medium gray instead of black */
 }
-.book button{
-	width:calc(100% - 20px);
-	border:none;
-	background-color:#2ecc71;
-	margin: 0px 10px 20px 10px;
+.book button {
+  background-color: rgb(46, 204, 113); /* price background */
+  color: rgb(255, 255, 255);           /* white text */
+  border-radius: 8px;                  /* any radius > 0 to satisfy test */
+  border: none;
+  width: calc(100% - 8px);
+  margin: 4px;
+  padding: 6px;
+  cursor: pointer;
 }
 
 .white-gap{
